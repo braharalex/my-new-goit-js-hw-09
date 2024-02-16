@@ -47,4 +47,6 @@ function onSubmit(e) {
       });
     delay += step;
   }
+
+  // formEl.reset();
 }
