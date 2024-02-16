@@ -11,7 +11,6 @@ function onStartChangeColor() {
 
   intervalId = setInterval(() => {
     document.body.style.backgroundColor = getRandomHexColor();
-    console.log('kkkkk');
   }, 1000);
 }
 
