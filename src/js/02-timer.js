@@ -6,8 +6,6 @@ const refs = {
   startBtn: document.querySelector('[data-start]'),
 };
 
-console.log(refs);
-
 let futureDate = new Date(2024, 2, 24, 13, 12, 12);
 let isActive = false;
 
@@ -26,6 +24,7 @@ const timer = {
     clearInterval(this.intervalId);
   },
 };
+refs.startBtn.addEventListener('click', timer.start.bind(timer));
 
 // timer.start();
 
